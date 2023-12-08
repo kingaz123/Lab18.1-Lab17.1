@@ -1,0 +1,27 @@
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carouselExampleCaptions .carousel-item {
+  height: 60vh !important;
+}
+.bg-img:nth-child(1) {
+  background-image: url("./The Matrix.jpg");
+}
+.bg-img:nth-child(2) {
+  background-image: url("./Inception.jpg");
+}
+.bg-img:nth-child(3) {
+  background-image: url("./Lucy.jpg");
+}
+.link {
+  display: flex;
+  padding-right: 50px;
+  padding-left: 80px;
+  padding-top: 130px;
+}
+.text {
+  display: flex;
+  padding-right: 860px;
+}
